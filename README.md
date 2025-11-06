@@ -1,20 +1,18 @@
-## Project title
-
-Mango Moon
+## Mango Moon
 
 ## Team members
 
-Liam Wilbur and Weston Keller
+Weston Keller and Liam Wilbur
 
 ## Project description
 
-A 70s Arcade Lunar Lander game with a twist... players activate the thrusters of their Mango Lander using their voice! The custom controller allows precise rotation of the lander, which allows players to attempt landings on various plateaus, craters, and lunar surfaces. Hardware uses a rotary encoder and KY-038 sound sensor for I/O, and a vibrating disc motor for haptic feedback.
+A 70s Arcade Lunar Lander game with a twist... players activate the thrusters of their Mango Lander using their voice! The custom controller allows precise rotation of the lander, which allows players to attempt landings on various plateaus, craters, and lunar surfaces. Hardware uses a rotary encoder and KY-038 sound sensor for I/O, and a vibrating disc motor for haptic feedback. 
 
-## Member contribution
+## Member Contributions
 
-Weston: Player physics/movement, Mango Lander / Moon / Explosion pixelart and animation, Bitmap reading functions, Start/Win/Crash/OOB/Fuel Empty State control flow & display screens. Modeled and 3D printed controller from scratch.
+Weston: Player physics/movement library, Core graphics libraries/framebuffer handling, pixelart bitmap reading functions and animation, game state control flow & display screens. Keyboard and controller GPIO firmware. Modeled and 3D printed controller.
 
-Liam: Trig tables, Rotary Encoder + Player rotation Logic, Mountain Drawing + Landing Zones, Framebuffer/Redraw Issues, Zoom In Screen when near Landing Zone, Aesthetics, Game State Control
+Liam: Trig tables, Rotary Encoder + Player rotation Logic, Mountain Drawing + Landing Zones, Framebuffer/Redraw Issues, Zoom In Screen when near Landing Zone, Game State Control
 
 ## References
 
@@ -40,7 +38,7 @@ https://www.youtube.com/watch?v=f3Rs20k-hcI
 
 We feel very happy with how many of our reach goals we were able to tackle! We feel that we struck a good balance in the movement system between being fun to maneuver, responsive, and appropriately challenging. We're proud of the aesthetics of the project, and the graphics performance choices we were able to implement to create smooth animation, minimize the redrawn portion of the screen, and transition quickly between scenes. We learned a lot about the pipeline for game state management, sprite instantiation / graphical redrawing, and creating satisfying interactions between hardware and gameplay. The end product is something we are so proud of and excited to show off.
 
-## VIDEO DEMO
+## VIDEO DEMOS
 
 Full Demo
 https://www.youtube.com/watch?v=Rgz2xvjeFv8
